@@ -63,7 +63,7 @@
       onSubmit(event) {
         event.preventDefault()
         this.registerDefi()
-        this.$router.push({name: 'defi'})
+        this.$router.push({name: 'defiadmin'})
       },
       onReset(event) {
         event.preventDefault()

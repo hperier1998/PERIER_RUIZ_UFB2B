@@ -23,7 +23,6 @@ export default {
     }, 
 
     registerDefi(data){
-        console.log(data)
         return api().post('/Createdefi', data)
     },
 
